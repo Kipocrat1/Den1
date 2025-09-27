@@ -20,7 +20,39 @@
         </div>
     </header>
     <main>
-    
+        <main class="container">
+        <h1>Мій розклад занять</h1>
+
+        <div id="schedule">
+            <ul id="days">
+                <li>Понеділок</li>
+                <li>Вівторок</li>
+                <li>Середа</li>
+                <li>Четвер</li>
+                <li>П'ятниця</li>
+            </ul>
+            <div id="schedule-details">
+                <h2 id="day-name">Виберіть день</h2>
+                <ul id="classes"></ul>
+               
+                <div id="add-class">
+                    <h3>Додати урок</h3>
+                    <input type="text" id="new-class" placeholder="Назва уроку">
+                    <button id="add-class-button">Додати урок</button>
+                </div>
+                <div id="homework">
+                    <h3>Домашка</h3>
+                    <ul id="homework-list"></ul>
+                    <select id="subject-select">
+                        <option value="" disabled selected>Виберіть предмет</option>
+                    </select>
+                    <input type="text" id="new-homework" placeholder="Введіть домашку">
+                    <button id="add-homework">Додати</button>
+                </div>
+            </div>
+        </div>
+      
+    </main>
     </main>
     <footer>
     
