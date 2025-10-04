@@ -1,5 +1,4 @@
-let h1 = document.querySelector(".main")
-h1.innerHTML = "sdsdsdsds"
+
 // Знаходимо всі елементи днів
 let days = document.querySelectorAll('#days li');
 
