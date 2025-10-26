@@ -9,7 +9,9 @@ body {
     margin: 0;
     background: rgb(80, 0, 80);
 }
-
+menu{
+    perspective: 10px;
+}
 header{
     padding: 20px;
     color: white;
