@@ -102,7 +102,7 @@ h1, h2, h3 {
     font-size: 25px;
 }
 
-#add-homework, #add-class button {
+#add-homework{
     padding: 10px 25px;
     background: rgb(80, 0, 80);
     color: white;
@@ -113,7 +113,7 @@ h1, h2, h3 {
     font-size: 25px;
 }
 
-#add-homework:hover,  #add-class-button:hover {
+#add-homework:hover {
     border: 2px solid rgb(249, 199, 2);
     color: rgb(249, 199, 2);
     transform: scale(1.1);
