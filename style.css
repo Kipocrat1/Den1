@@ -132,9 +132,12 @@ footer {
 /* 13 */
 .add-class-button {
   background-color: #89d8d3;
-background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
   border: none;
   z-index: 1;
+  font-family: "Caveat", cursive;
+  font-size: 25px; 
+  padding: 10px 25px;  
 }
 .add-class-button:after {
   position: absolute;
