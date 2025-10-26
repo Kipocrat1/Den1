@@ -110,7 +110,7 @@ function setupAddClassButton(day) {
         }
     };
 }
-let block = document.querySelector('.block')
+let block = document.querySelector('.menu')
 document.addEventListener('mousemove', function(e) {
     let dx = e.pageX - window.innerWidth / 2
     let dy = e.pageY - window.innerHeight / 2
