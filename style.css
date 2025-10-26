@@ -130,13 +130,13 @@ footer {
 }
 
 /* 13 */
-.btn-13 {
+.add-class-button {
   background-color: #89d8d3;
 background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
   border: none;
   z-index: 1;
 }
-.btn-13:after {
+.add-class-button:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -154,13 +154,13 @@ background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
-.btn-13:hover {
+.add-class-button:hover {
   color: #fff;
 }
-.btn-13:hover:after {
+.add-class-button:hover:after {
   top: 0;
   height: 100%;
 }
-.btn-13:active {
+.add-class-button:active {
   top: 2px;
 }
